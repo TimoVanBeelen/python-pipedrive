@@ -76,7 +76,7 @@ Examples:
     ```python
         import json
         ...
-        response = pipedrive.persons_find({'term':term}, method='GET')
+        response = pipedrive.persons_search({'term':term}, method='GET')
         results = response['data']
         suggestions = []
         if results != None:
